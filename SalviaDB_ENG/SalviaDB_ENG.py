@@ -251,7 +251,7 @@ def header() -> rx.Component:
                 rx.center(
                     rx.link(
                         rx.icon("git-fork", size=16, color="white"),
-                        href="https://github.com/SeqCrafter/SalviaDB",
+                        href="https://github.com/SeqCrafter/SalviaDB_ENG",
                         target="_blank",
                         rel="noopener noreferrer",
                         underline="none",
