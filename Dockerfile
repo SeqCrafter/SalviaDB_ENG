@@ -73,6 +73,8 @@ COPY --chown=reflex . .
 
 USER reflex
 
+RUN command -v reflex && ls -l /app/.venv/bin/reflex /app/.venv/bin/python && reflex --version
+
 EXPOSE $PORT
 
 CMD if [ -d alembic ]; then reflex db migrate; fi && \
